@@ -9,7 +9,6 @@
 ## Objetivo do Projeto
 
 Usando o Microcontrolador Raspberry Pi Pico W ao empregar a função add_alarm_in_ms(), presente na ferramenta Pico SDK, foi projetado um sistema de temporização para o acionamento e desligamento de LEDs, que atua a partir do clique em um botão (pushbutton).
-Configura o temporizador de hardware para chamar a função de callback a cada 1 segundo.
 
 ## 🗒️ Lista de requisitos
 
@@ -103,7 +102,7 @@ atraso, ocorrerá uma mudança de estado para dois LEDs ligados e, em seguida, a
 
 ## 🎥 Demonstração na Placa (Video): 
 
-### As cores não equivalem às cores do semáforo na placa, pois a gpios sugeridas na tarefa não tem números equivalentes ao RGB da placa, no entanto, preferiu-se seguir à risca as instruções da tarefa.
+#### As cores vão de branco, quando as cores azul, vermelho e verde estão ligadas, depois vai para roxo quando a cor verde é desligada, depois vai para vermelho quando a cor azul é desligada. A ordem de cores fica diferente na placa, pois as gpios sugeridas na tarefa não tem números equivalentes ao RGB da placa, no entanto, preferiu-se seguir à risca as instruções da tarefa.
 
 <div align="center">
   <a href="https://youtu.be/06sUM6IMAWE" target="_blank">
